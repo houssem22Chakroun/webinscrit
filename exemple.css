@@ -1,0 +1,40 @@
+body {
+    font-family: "Trebuchet MS";
+ 
+    margin: 0;
+
+  }
+  header, footer, section et article{
+
+    background-color: white;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 8px;
+  }
+  header{
+
+    background-color: red;
+    color: white;
+  } 
+
+  section{
+    background-color: #ddd;
+  }
+  .LienTitre {
+    color: #ff0000;
+}
+
+.LienTitre:visited {
+    color: black;
+}
+
+.LienTitre:hover {
+    color: yellow;
+}
+
+.LienTitre:active {
+    color: green;
+}
+    a {
+      text-decoration: none;
+  }
